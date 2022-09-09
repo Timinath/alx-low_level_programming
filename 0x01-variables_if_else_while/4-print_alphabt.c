@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: using the main function print 
+ * Description: using the main function print
  * Return: 0
  */
 int main(void)
