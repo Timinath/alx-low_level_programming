@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: using the main function print "Programming is positive, zero, or negative
+ * Description: using the main function print 
  * Return: 0
  */
 int main(void)
