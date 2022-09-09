@@ -2,18 +2,19 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *  * main - entry point
- *   *
- *    * Description: using the main function
- *     * Return: 0
- *      */
+ * main - entry point
+ *
+ * Description: using the main function
+ * Return: 0
+ */
 int main(void)
 {
-char letter;
+char ch;
 
-for (letter = 'a'; letter <== 'z'; letter++)
-	putchar(letter);
-
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);
+}
 putchar('\n');
 
 return (0);
