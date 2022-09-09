@@ -1,1 +1,1 @@
-3 print alphabets
+4-print_alphabet
