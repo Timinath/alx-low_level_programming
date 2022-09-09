@@ -1,1 +1,1 @@
-Print numbers
+100 print comb
