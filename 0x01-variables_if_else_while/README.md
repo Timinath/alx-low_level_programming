@@ -1,1 +1,1 @@
-9 print comb
+Print numbers
