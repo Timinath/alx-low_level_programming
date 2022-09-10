@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point 
+ * main - entry point
  *
  * Description
+ *
  * Return: 0
  */
 int main(void)
