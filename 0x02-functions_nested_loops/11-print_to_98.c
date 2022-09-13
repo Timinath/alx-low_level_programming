@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - print natural numbers from input to 98
  * @n: where to start counting
@@ -14,7 +15,7 @@ void print_to_98(int n)
 			printf("%d", i);
 			if (i != 98)
 			{
-				printf(",");
+				printf(", ");
 
 			}
 		}
