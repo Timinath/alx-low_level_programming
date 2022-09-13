@@ -1,6 +1,8 @@
 #include "main.h"
-/** 
+/**
  * main - entry
+ *
+ * Description: function print_alphabet
  *
  * Return: 0
  */
