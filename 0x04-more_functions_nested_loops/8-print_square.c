@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_square - Print a square of single characters
  * @n : the number n x n of the square
@@ -8,20 +7,22 @@
  */
 void print_square(int size)
 {
-	int i = 0, ii;
-	
-	while (i < n && n > 0)
+	int i, j;
+
+	if (size <= 0)
 	{
-		ii = 0;
-		while (ii < n)
-		{
-			_putchar('#');
-			ii++;
-		}
-		_putchar('\n');
-		i++;
+	_putchar('\n');
 	}
-	if (i == 0)
-		_putchar('\n');
+	else
+	{
+	for (i = 1; i <= size; i++)
+	{
+	for (j = 1; j <= size; j++)
+	{
+	_putchar('#');
+	}
+	_putchar('\n');
+	}
+	}
 }
-}
+
