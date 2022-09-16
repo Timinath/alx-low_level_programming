@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  * print_square - Print a square of single characters
- * @n : the number n x n of the square
- * Constraints -  use _putchar to print and use
- * Return: void
+ *  @size: assigned to the int
  */
 void print_square(int size)
 {
@@ -18,7 +16,6 @@ void print_square(int size)
 	for (i = 1; i <= size; i++)
 	{
 	for (j = 1; j <= size; j++)
-	{
 	_putchar('#');
 	}
 	_putchar('\n');
