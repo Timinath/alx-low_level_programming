@@ -4,13 +4,12 @@
  *
  * @n: integer to print line
  */
+
 void print_line(int n)
 {
-	int i;
-
-	void print_line(int n)
+	while (n-- > 0)
 	{
-		_putchar('_');
+		putchar('_');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
