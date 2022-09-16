@@ -12,5 +12,6 @@ int _putchar(char);
 int _isupper(int c);
 int _isdigit(int C);
 int mul(int a, int b);
+void print_number(int n);
 
 #endif
