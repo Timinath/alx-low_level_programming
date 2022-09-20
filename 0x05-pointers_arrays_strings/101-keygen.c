@@ -7,12 +7,18 @@
  */
 int main(void)
 {
-	srand((unsigned int)time(NULL));
-	unsigned int i;
-	char pass[30];
+	int r = 0, c = 0;
+	time_t t;
 
-	for (i = 0; i < 4; i++)
-	pass[3 * i] = '0' + (rand() % 10);
-	printf("generated password : %s\n", pass);
+	srand((unsigned int) time(&t));
+	while (c < 2772)
+	{
+		r = rand() % 128;
+		if ((c + r) > 2772)
+			break;
+		c = c + r;
+		printf("%c", r);
+	}
+	printf("%c\n", (2772 - c));
 	return (0);
 }
