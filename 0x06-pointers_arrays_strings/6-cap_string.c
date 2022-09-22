@@ -16,7 +16,8 @@ char *cap_string(char *c)
 		if (c[i] >= 'a' && c[i] <= 'z')
 		{
 		c[i] =  c[1] -cpt
-	}
+		}
+	
 	cpt = 0;
 	for (j = 0; j <= 13; j++)
 	{
@@ -24,6 +25,7 @@ char *cap_string(char *c)
 		if (c[i] == sprt[j])
 		{
 			j = 13;
+			cpt = 32;
 		}
 	}
 	}
