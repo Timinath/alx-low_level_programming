@@ -2,10 +2,11 @@
 /**
  * _strncat - function declared to print two concatenated strings
  * @dest: assigned char variable
- *  @src: assigned char variable
- *  @n: assigned int variable
- *  Return: is dest
+ * @src: assigned char variable
+ * @n: assigned int variable
+ * Return: is dest
  */
+char *_strncat(char *dest, char *src, int n)
 {
 	int l, j;
 
