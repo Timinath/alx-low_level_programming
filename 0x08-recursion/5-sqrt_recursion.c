@@ -5,7 +5,7 @@
  * @n: int variable
  * @cal: indirect recursive function
  * Return: values && -1
- */
+ **/
 int square(int n, int cal)
 {
 	if (cal * cal == n)
