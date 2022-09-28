@@ -1,20 +1,29 @@
 #include "main.h"
+int _square_root(int, int);
+
 /**
- * square - function
  * _sqrt_recursion - funtion that returns square root
- * @n: int variable
- * @cal: indirect recursive function
- * Return: values && -1
+ * @n: int n
+ * Return: int
  **/
-int square(int n, int cal)
-{
-	if (cal * cal == n)
-	return (cal);
-	if (cal * cal < n)
-	return (square(n, cal + 1));
-	return (-1);
-}
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	return (_square_root(n, 1));
+}
+/**
+ * _square_root - Child Function
+ * @n: Number whose square root is to be calculated
+ * @count: Placeholder count
+ * Return: square_root
+ */
+int _square_root(int n, int count)
+{
+	if (n < 0)
+		return (-1);
+	if ((count * count) > n)
+		return (-1);
+	if (count * count == n)
+		return (count);
+
+	return (_square_root(n, count + 1));
 }
