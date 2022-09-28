@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - function that prints a string
  * @s: pointer char variable
- * Return: 0
+ * Return: void
  */
 
 void _puts_recursion(char *s)
