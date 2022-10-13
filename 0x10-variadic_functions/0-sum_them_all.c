@@ -1,11 +1,11 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 /**
- * sum_them_all - function that returns the sum of all its parameters
- * @n: a const type of integer
- * @...: An unknown variable parameters to calculate
- * Return: 0
- */
+* sum_them_all - function that returns the sum of all its parameters
+* @n: a const type of integer
+* @...: An unknown variable parameters to calculate
+* Return: 0
+*/
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list num;
