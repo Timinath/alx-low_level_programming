@@ -6,6 +6,7 @@
  * @h: pointer
  * Return: nodes
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t nodes = 0;
@@ -19,5 +20,6 @@ size_t print_list(const list_t *h)
 		nodes++;
 		h = h->next;
 	}
+
 	return (nodes);
 }
