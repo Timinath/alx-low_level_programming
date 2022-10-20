@@ -1,11 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
-/**
- * File: lists.h
- * Auth: Owoyemi Idris
- * Desc: Header file containing prototypes and definitions for all functions
- *
- */
+
 #include <stdlib.h>
 
 /**
